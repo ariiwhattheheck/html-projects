@@ -1,0 +1,54 @@
+body{
+    background-color: pink;
+}
+.established{
+    font-style: italic;
+}
+h1,h2,p {
+    font-family: Times New Roman, Sans-Serif;
+    text-align: center;
+}
+h1,h2 {
+    font-size: 20px;
+}
+.menu{
+    background-color: burlywood;
+    margin-left: auto ;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+hr{
+    background-color: pink;
+    border-color: pink ;
+    height: 1px;
+}
+.flowers, .gifts{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+.products p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+a {
+    color: red;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: pink;
+}
+footer {
+    font-size: 14px;
+}
