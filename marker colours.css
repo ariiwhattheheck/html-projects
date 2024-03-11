@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    background-color: burlywood;
+    font-size: 25px;
+}
+.container{
+    background-color: rgb (255, 255, 255);
+    padding: 10px 0;
+
+}
+.marker{
+    width: 300px;
+    height: 27px;
+    margin: 10px auto;
+
+}
+.cap{
+    width: 240px;
+    height: 27px;
+    background-color: rgba(255, 255, 255, 0.25);
+    float: right;
+}
+.sleeve{
+    width: auto;
+    height: 25px;
+    background-color: rgba (255, 255, 255, 0.5);
+    border-left: 9px solid rgba(0, 0, 0, 0.75);
+    margin-left: 50px
+}
+.cap, .sleeve{
+    display: inline-block;
+}
+.red{
+    background: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0), rgb(0, 0, 0));
+    box-shadow: 0 0 15px 0 rgb(255, 0, 0);
+
+}
+.blue{
+    background: linear-gradient(rgb(0,0,0), rgb(0,0,255), rgb(0,0,0));
+    box-shadow: 0 0 15px 0 rgb(0,0,255);
+}
+.green{
+    background: linear-gradient(rgb(0,0,0), rgb(0,255,0), rgb(0,0,0));
+    box-shadow: 0 0 15px 0 rgb(0,255,0);
+}
+.yellow{
+    background: linear-gradient(rgb(0,0,0), rgb(255,255,0), rgb(0,0,0));
+    box-shadow: 0 0 15px 0 rgb(255, 255, 0);
+}
+.purple{
+    background: linear-gradient(rgb(0,0,0), rgb(160,32,240), rgb(0,0,0));
+    box-shadow: 0 0 15px 0 rgb(160,32,240);
+}
