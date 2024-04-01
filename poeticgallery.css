@@ -1,0 +1,46 @@
+.background{
+    background-image: url(https://i.pinimg.com/564x/4b/e4/5b/4be45b3555cb74d37aa4cae659826549.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+h1{
+    background-color: burlywood;
+    color: rgb(255,255,255);
+    text-align: center;
+    border: dotted rgb(0,0,0);
+    padding: 5px;
+    margin: 20px 300px;
+}
+p{
+    background-color: black;
+    color: burlywood;
+    text-align: center;
+    font-style:italic;
+    border: none;
+    padding: 2.5px;
+    margin: 2px 420px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.container img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}  
+.container::after{
+    width: 350px;
+    content: " ";
+}
